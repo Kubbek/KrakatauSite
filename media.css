@@ -1,0 +1,55 @@
+
+@media (min-width:1200px){
+    .section {
+        width: 1200px;
+        height: 400px;
+    }
+
+}
+
+
+@media (min-width:1500px){
+    .section {
+        width: 1500px;
+        height: 889px;
+    }
+
+}
+
+
+@media (min-width:1800px){
+    .section {
+        width: 1800px;
+        height: 1067px;
+    }
+
+    .aboutUsLetters{
+        position: absolute;
+        top: 43.5%;
+        left: 15%;
+    }
+}
+
+@media (min-width:2200px){
+    .section {
+        width: 2200px;
+        height: 984px;
+    }
+
+    .aboutUsLetters{
+        position: absolute;
+        top: 43.5%;
+        left: 15%;
+    }
+    
+
+}
+
+
+@media (min-width:2800px){
+    .section {
+        width: 2800px;
+        height: 1253px;
+    }
+
+}
