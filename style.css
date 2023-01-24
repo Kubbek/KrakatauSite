@@ -1,0 +1,71 @@
+@import url(reset);
+
+* {
+    background-color: rgb(174, 174, 174);
+} 
+
+header {
+    width: 100%;
+    height: 200px;
+}
+
+
+.logo {
+    width: 100%;
+    height: 200px;
+}
+
+.section {
+    position: relative;
+    width: 1754px;
+    height: 785px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.aboutUs{
+    background-image: url(img/O\ NAS.jpg);
+    
+}
+
+.film {
+    background-image: url(img/FILM\ .jpg);
+}
+
+.tv {
+    background-image: url(img/TELEWIZJA..jpg);
+}
+
+.theatre {
+    background-image: url(img/TEATR\ .jpg);
+}
+
+.multimedia{
+    background-image: url(img/MULTIMEDIA\ .jpg);
+}
+
+.main-link {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 100px;
+    background: none;
+    font-size: 70px;
+}
+
+.main-link:hover{
+    color: red;
+}
+
+.aboutUsLetters{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+
+.filmLetters {
+    position: absolute;
+    top: 1382px;
+    left: 300px;
+}
