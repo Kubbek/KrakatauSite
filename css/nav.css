@@ -17,9 +17,10 @@ header {
 
 }
 ul {
+    margin-left: ;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 ul a {
@@ -33,5 +34,5 @@ ul a {
 }
 
 ul a:hover{
-    color: bisque;
+    color: rgb(50, 50, 50);
 }

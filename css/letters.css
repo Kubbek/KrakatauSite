@@ -1,7 +1,7 @@
 
 .main-link {
-    font-weight: 200;
-    color: white;
+    font-weight: 300;
+    color: lightgray;
     text-decoration: none;
     letter-spacing: 100px;
     background: none;
@@ -22,4 +22,60 @@
     top: 55.5%;
     left: 10%;
     font-size: 14vh;
+}
+
+.filmLetters {
+    position: absolute;
+    top: 40.5%;
+    left: 10%;
+    font-size: 11vh;
+} 
+
+.filmLetters:hover{
+    color: rgb(0, 206, 214);
+}
+
+.tvLetters {
+    position: absolute;
+    top: 40.5%;
+    left: 10%;
+    font-size: 11vh;
+} 
+
+.tvLetters:hover{
+    color: rgb(230, 168, 2);
+}
+
+
+.theatreLetters {
+    position: absolute;
+    top: 50.5%;
+    left: 10%;
+    font-size: 11vh;
+} 
+
+.theatreLetters:hover{
+    color: rgb(162, 0, 255);
+}
+
+.grafikaLetters {
+    position: absolute;
+    top: 54.5%;
+    left: 10%;
+    font-size: 11vh;
+} 
+
+.grafikaLetters:hover{
+    color: rgb(2, 233, 197);
+}
+
+.multimediaLetters {
+    position: absolute;
+    top: 40.5%;
+    left: 10%;
+    font-size: 11vh;
+} 
+
+.multimediaLetters:hover{
+    color: rgb(242, 2, 177);
 }
