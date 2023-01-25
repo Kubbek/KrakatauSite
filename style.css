@@ -21,8 +21,8 @@ header {
 }
 
 .section {
-    width: 100%;
-    height: max-content;
+    width: 99vw;
+    height: 44vw;
     position: relative;
     margin: auto;
     margin-bottom: 1vh;
