@@ -1,6 +1,6 @@
-@import url(media.css);
+
 * {
-    background-color: rgb(174, 174, 174);
+    background-color: #bebcbd;
     margin: 0;
     padding: 0;
 } 
@@ -14,10 +14,14 @@
 }
 
 .section {
+    width: 90%;
+    height: 90vh;
     position: relative;
     margin: auto;
-    margin-bottom: 50px;
-    background-size: contain;
+    margin-bottom: 1vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .aboutUs{
