@@ -20,10 +20,11 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    margin: auto;
 }
 
 ul a {
-    
+
     display: block;
     text-transform: none;
     text-decoration: none;
