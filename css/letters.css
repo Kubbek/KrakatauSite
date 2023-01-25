@@ -1,0 +1,25 @@
+
+.main-link {
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 100px;
+    background: none;
+}
+
+.main-link:hover{
+    color: red;
+}
+
+.filmLetters {
+    position: absolute;
+    top: 1382px;
+    left: 300px;
+}
+
+.aboutUsLetters {
+    position: absolute;
+    top: 55.5%;
+    left: 10%;
+    font-size: 14vh;
+}
