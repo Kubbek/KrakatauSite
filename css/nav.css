@@ -6,18 +6,20 @@ header {
 }
 
 .logo {
-    width: 30vh;
+    width: 60vh;
     height: 100%;
+    margin: auto;
     background-image: url(../img/LOGOTYP.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .menu {
-    width: 100%;
+    width: 95vw;
+    margin: auto;
 
 }
 ul {
-    margin-left: ;
+    margin-left: 1vh;
     list-style: none;
     display: flex;
     justify-content: space-between;
