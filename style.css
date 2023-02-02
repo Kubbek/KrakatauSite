@@ -1,14 +1,17 @@
 @import url(css/letters.css);
 @import url(css/nav.css);
+@import url(css/film.css);
 
 * {
-    background-color: rgb(134, 134, 134);
-
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
 } 
 
+body {
+    background-color: rgb(134, 134, 134);
+}
 
 
 .section {
@@ -46,4 +49,5 @@
 .multimedia{
     background-image: url(img/MULTIMEDIA\ .jpg);
 }
+
 

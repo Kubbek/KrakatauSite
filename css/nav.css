@@ -1,12 +1,10 @@
 header {
-    width: ;
     height: 20vh;
     display:flex;
     justify-content: center;
 }
 
 .logo {
-    padding-top: ;
     width: 60vh;
     height: 22vh;
     margin: auto;
