@@ -1,7 +1,7 @@
 .gallery {
     background-color: black;
      margin: auto;
-     width: 95vw;
+     width: 80vw;
      display: flex;
      flex-wrap: wrap;
      justify-content: space-evenly;
