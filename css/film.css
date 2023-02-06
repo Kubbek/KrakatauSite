@@ -23,11 +23,10 @@
 .img_dscr {
     background-color: black;
     height:25%;
-    color: white;
-    font-size: 3vh;
+    font-size: 2vh;
     padding: 2vh 2vh 2vh 2vh;
-    color: rgb(207, 202, 202);
-    letter-spacing: 0.5vh;
+    color: rgb(134, 134, 134);
+    letter-spacing: 0.2vh;
 
 }
 
