@@ -1,0 +1,18 @@
+
+.header__subsite {
+    display: flex;
+    justify-content: center;
+}
+.logo__graphic {
+        width: 60vh;
+        height: 8vh;
+        margin: auto;
+        background-image: url(../html/Graphic/img/LOGOTYP\ PLASKI.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+.bar {
+    display: block;
+    height: 20px
+}
