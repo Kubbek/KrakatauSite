@@ -12,10 +12,15 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-.menu {
+.menu_main {
     width: 95vw;
     margin: auto;
 
+}
+
+.menu_sm {
+    width:80vw;
+    margin: auto;
 }
 ul {
     margin-left: 1vh;
@@ -29,9 +34,11 @@ ul a {
     display: block;
     text-transform: none;
     text-decoration: none;
-    font-size: 3vh; 
+    font-size: 1.8vw; 
     color: rgb(207, 202, 202);
-    padding-bottom: 1vh;
+    padding-bottom: 2vh;
+    font-weight: bold;
+    letter-spacing: 0.4vh;
 }
 
 ul a:hover{

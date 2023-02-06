@@ -22,11 +22,11 @@
 
 .img_dscr {
     background-color: black;
+    font-weight: bold;
     height:25%;
     font-size: 2vh;
-    padding: 2vh 2vh 2vh 2vh;
+    padding: 0 2vh 3vh 0.5vh;
     color: rgb(134, 134, 134);
-    letter-spacing: 0.2vh;
 
 }
 
