@@ -33,7 +33,6 @@
 
 
 .popup {
-    background: rgba(0, 0, 0, 0.5);
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -43,13 +42,13 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    backdrop-filter: blur(10px);
     position: fixed;
 }
 
-.popup.hidden {
+.hidden {
     display: none;
 }
+
 
 .popup img {
     max-width: 80%;

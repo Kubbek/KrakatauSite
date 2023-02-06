@@ -4,6 +4,7 @@ const POPUP_CLOSE = document.querySelector(".popup_close")
 const POPUP_IMG = document.querySelector(".popup_img")
 const ARROW_LEFT = document.querySelector(".popup_arrow--left");
 const ARROW_RIGHT = document.querySelector(".popup_arrow--right");
+const GALLERY = document.querySelector(".gallery")
 
 let imageIndex;
 
@@ -29,10 +30,12 @@ const prevImg = () => {
 
 const closePopup = () =>{
     POPUP.classList.add("hidden")
+    GALLERY.classList.remove("hidden")
 }
 THUMBNAILS.forEach((thumbnail, index) => {
     thumbnail.addEventListener("click", (e) => {
         POPUP.classList.remove("hidden");
+        GALLERY.classList.add("hidden")
         POPUP_IMG.scr = e.target.src;
         imageIndex = index;
     });
