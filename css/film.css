@@ -48,7 +48,8 @@
 
 
 .popup img {
-    display: block;
+    display: inline-block;
+
 }
 
 .popup_close {

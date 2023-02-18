@@ -2,44 +2,45 @@ const THUMBNAILS = document.querySelectorAll(".thumbnail img");
 const POPUP = document.querySelector(".popup")
 const POPUP_CLOSE = document.querySelector(".popup_close")
 const POPUP_IMG = document.querySelector(".popup_img")
-const ARROW_LEFT = document.querySelector(".popup_arrow--left");
-const ARROW_RIGHT = document.querySelector(".popup_arrow--right");
-const GALLERY = document.querySelector(".gallery")
+const ARROW_LEFT = document.querySelector(".arrow_left");
+const ARROW_RIGHT = document.querySelector(".arrow_right");
+const GALLERY = document.querySelector(".gallery");
 
-let imageIndex;
-
-const nextImg = () => {
-    if (imageIndex === 0){
-        imageIndex = THUMBNAILS.length -1
-    } else {
-        imageIndex--;
-    }
-    imageIndex = imageIndex + 1
-    POPUP_IMG.src= THUMBNAILS[imageIndex].src
-}
-
-const prevImg = () => {
-    if (imageIndex === 0){
-        imageIndex = THUMBNAILS.length - 1 ;
-    } else {
-        imageIndex++
-    }
-    imageIndex = imageIndex - 1
-    POPUP_IMG.src= THUMBNAILS[imageIndex].src
-}
+let counter = 0
 
 const closePopup = () =>{
     POPUP.classList.add("hidden")
     GALLERY.classList.remove("hidden")
 }
-THUMBNAILS.forEach((thumbnail, index) => {
-    thumbnail.addEventListener("click", (e) => {
+
+const prevImg = () => {
+    if (counter==1) {
+        counter=56
+    } else {
+    counter--
+    POPUP_IMG.setAttribute('src', 'img/'+counter+'A.jpg')
+    }
+}
+const nextImg = () => {
+    if (counter ==56){
+        counter =1 
+    } else {
+        counter++
+        POPUP_IMG.setAttribute('src', 'img/'+counter+'A.jpg')      
+    }
+};
+
+THUMBNAILS.forEach((thumbnail) => {
+    thumbnail.addEventListener("click", () => {
         POPUP.classList.remove("hidden");
         GALLERY.classList.add("hidden")
-        POPUP_IMG.scr = e.target.src;
-        imageIndex = index;
+        POPUP_IMG.setAttribute('src',thumbnail.src.slice(0,-4)+"A.jpg")
+        counter = (~~thumbnail.src.slice(-5,-4));
+ 
     });
 })
+
+
 
 POPUP_CLOSE.addEventListener("click", closePopup)
 
@@ -62,4 +63,3 @@ document.addEventListener('keydown', (e) => {
         closePopup()
     }
 })
-
