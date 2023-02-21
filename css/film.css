@@ -33,7 +33,7 @@
 
 
 .popup {
-    width: 80vh;
+    width: 80%;
     margin: auto;
     position: relative;
     display: flex;
@@ -48,31 +48,44 @@
 
 
 .popup img {
+    max-width: 100%;
+    height: auto;
     display: inline-block;
 
 }
 
 .popup_close {
     position: absolute;
-    right: 0;
+    top: -0.5vw;
+    right: -3vw;
     background: none;
-    font-size: 4vh;
+    font-size: 4vw;
     color :rgb(207, 202, 202);
 }
 
 .popup_arrow {
     position: absolute;
+    top: 50%;
     background: none;
-    font-size: 4vh;
+    font-size: 5vw;
     color :rgb(207, 202, 202);
 }
 
 .arrow_left {
-    left:0;
-    top: 50%
-}
+    width: 0; 
+    height: 0; 
+    border-top: 2vw solid transparent;
+    border-bottom: 2vw solid transparent;   
+    border-right:4vw solid; 
+    left: -5vw
+  }
 
 .arrow_right {
-    right:0;
-    top: 50%
-}
+    width: 0; 
+    height: 0; 
+    border-top: 2vw solid transparent;
+    border-bottom: 2vw solid transparent;
+    border-left: 4vw solid;
+    right: -5vw
+  }
+
