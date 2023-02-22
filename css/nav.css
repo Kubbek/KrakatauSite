@@ -30,13 +30,13 @@ ul {
 }
 
 ul a {
-    padding-top: 6vh;
+    padding-top: 5vh;
     display: block;
     text-transform: none;
     text-decoration: none;
     font-size: 1.8vw; 
     color: rgb(207, 202, 202);
-    padding-bottom: 2vh;
+    padding-bottom: 1vh;
     font-weight: bold;
     letter-spacing: 0.4vh;
 }

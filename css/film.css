@@ -6,6 +6,7 @@
      flex-wrap: wrap;
      justify-content: space-evenly;
      list-style-type: none;
+
 }
 
 .thumbnail {
@@ -21,13 +22,18 @@
 
 }
 
+.thumbnail img:hover {
+    cursor: pointer;
+}
+
 .img_dscr {
     background-color: black;
     font-weight: bold;
     height:25%;
     font-size: 2vh;
     padding: 0 2vh 3vh 0.5vh;
-    color: rgb(134, 134, 134);
+    color: rgb(162, 161, 161);
+    letter-spacing: 2px;
 
 }
 
@@ -67,25 +73,24 @@
     position: absolute;
     top: 50%;
     background: none;
-    font-size: 5vw;
     color :rgb(207, 202, 202);
 }
 
 .arrow_left {
     width: 0; 
     height: 0; 
-    border-top: 2vw solid transparent;
-    border-bottom: 2vw solid transparent;   
-    border-right:4vw solid; 
+    border-top: 1vw solid transparent;
+    border-bottom: 1vw solid transparent;   
+    border-right:2vw solid; 
     left: -5vw
   }
 
 .arrow_right {
     width: 0; 
     height: 0; 
-    border-top: 2vw solid transparent;
-    border-bottom: 2vw solid transparent;
-    border-left: 4vw solid;
+    border-top: 1vw solid transparent;
+    border-bottom: 1vw solid transparent;
+    border-left: 2vw solid;
     right: -5vw
   }
 
