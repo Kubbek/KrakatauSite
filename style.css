@@ -53,3 +53,7 @@ body {
 }
 
 
+.bar {
+    display: block;
+    height: 3vh;
+}
