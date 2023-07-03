@@ -19,9 +19,12 @@
 
 .aboutUsLetters {
     position: absolute;
-    top: 55.5%;
+    background-color: aqua;
+    height: 9%;
+    top: 57.5%;
     left: 10%;
-    font-size: 14vh;
+    font-size: ga;
+ 
 }
 
 .filmLetters {

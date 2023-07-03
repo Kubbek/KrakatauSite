@@ -39,13 +39,18 @@
 
 
 .popup {
-    width: 80%;
-    margin: auto;
-    position: relative;
+    align-content: center;
+    animation: fadeIn 0.3s;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
     justify-content: center;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
 }
 
 .hidden {
@@ -54,9 +59,8 @@
 
 
 .popup img {
-    max-width: 100%;
-    height: auto;
-    display: inline-block;
+    max-height: 80%;
+    max-width: 80%;
 
 }
 
