@@ -1,3 +1,6 @@
+
+
+
 const THUMBNAILS = document.querySelectorAll(".thumbnail img");
 const POPUP = document.querySelector(".popup")
 const POPUP_CLOSE = document.querySelector(".popup_close")
@@ -5,6 +8,20 @@ const POPUP_IMG = document.querySelector(".popup_img")
 const ARROW_LEFT = document.querySelector(".arrow_left");
 const ARROW_RIGHT = document.querySelector(".arrow_right");
 const GALLERY = document.querySelector(".gallery");
+
+var LETTERS = document.querySelectorAll('.main-link');
+
+function resizeText() {
+  LETTERS.forEach(function (letter) {
+    var height = letter.offsetHeight;
+    letter.style.fontSize = height  + 'px';
+    letter.style.lineHeight = height + 'px';
+  });
+}
+
+window.addEventListener('resize', resizeText);
+window.addEventListener('DOMContentLoaded', resizeText);
+
 
 let counter = 0
 
@@ -63,3 +80,4 @@ document.addEventListener('keydown', (e) => {
         closePopup()
     }
 })
+

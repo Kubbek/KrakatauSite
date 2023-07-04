@@ -3,7 +3,7 @@
     font-weight: 300;
     color: rgb(177, 175, 175);
     text-decoration: none;
-    letter-spacing: 100px;
+    letter-spacing: 5vw;
     background: none;
 }
 
@@ -19,19 +19,20 @@
 
 .aboutUsLetters {
     position: absolute;
-    background-color: aqua;
-    height: 9%;
+    height: 9% ;
     top: 57.5%;
     left: 10%;
-    font-size: ga;
+
  
 }
 
 .filmLetters {
     position: absolute;
-    top: 40.5%;
+    top: 44%;
     left: 10%;
-    font-size: 11vh;
+    height:8%;
+
+
 } 
 
 .filmLetters:hover{
@@ -40,9 +41,11 @@
 
 .tvLetters {
     position: absolute;
-    top: 40.5%;
+    top: 44%;
     left: 10%;
-    font-size: 11vh;
+    height: 9%;
+    letter-spacing: 1.5vw;
+
 } 
 
 .tvLetters:hover{
@@ -52,9 +55,11 @@
 
 .theatreLetters {
     position: absolute;
-    top: 50.5%;
+    top: 57%;
     left: 10%;
-    font-size: 11vh;
+    height: 8%;
+    letter-spacing: 3vw;
+
 } 
 
 .theatreLetters:hover{
@@ -63,9 +68,11 @@
 
 .grafikaLetters {
     position: absolute;
-    top: 54.5%;
-    left: 10%;
-    font-size: 11vh;
+    top: 57%;
+    left: 8%;
+    height: 8%;
+    letter-spacing: 2vw;
+
 } 
 
 .grafikaLetters:hover{
@@ -74,9 +81,11 @@
 
 .multimediaLetters {
     position: absolute;
-    top: 40.5%;
+    top: 44%;
     left: 10%;
-    font-size: 11vh;
+    height: 9%;
+    letter-spacing: 1.5vw;
+
 } 
 
 .multimediaLetters:hover{
