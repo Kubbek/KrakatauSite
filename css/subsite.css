@@ -1,0 +1,125 @@
+.header_subsite {
+  display: flex;
+  justify-content: center;
+}
+.logo_subsite {
+  width: 27vw;
+  height: 9vh;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logo_film {
+  background-image: url(../html/Film/img/LOGO\ FILM.jpg);
+}
+
+.logo_tv {
+  background-image: url(../html/TV/img/LOGO\ TV.jpg);
+}
+
+.logo_theatre {
+  background-image: url(../html/Theatre/img/LOGO\ TEATR.jpg);
+}
+
+.logo_graphic {
+  background-image: url(../html/Graphic/img/LOGO\ GRAFIC.jpg);
+}
+
+.logo_multimedia {
+  background-image: url(../html/Multimedia/img/LOGO\ MULTIMEDIA.jpg);
+}
+
+.gallery {
+  background-color: black;
+  margin: auto;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.thumbnail {
+  min-width: 25%;
+  max-width: 25%;
+  height: 100%;
+}
+
+.thumbnail img {
+  object-fit: cover;
+  width: 100%;
+  background-color: black;
+}
+
+.thumbnail img:hover {
+  cursor: pointer;
+}
+
+.img_dscr {
+  background-color: black;
+  font-weight: bold;
+  height: 25%;
+  font-size: 2vh;
+  padding: 0 2vh 3vh 0.5vh;
+  color: rgb(162, 161, 161);
+  letter-spacing: 2px;
+}
+
+.popup {
+  align-content: center;
+  animation: fadeIn 0.3s;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.hidden {
+  display: none;
+}
+
+.popup img {
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.popup_close {
+  position: absolute;
+  top: -0.5vw;
+  right: -3vw;
+  background: none;
+  font-size: 4vw;
+  color: rgb(207, 202, 202);
+}
+
+.popup_arrow {
+  position: absolute;
+  top: 50%;
+  background: none;
+  color: rgb(207, 202, 202);
+}
+
+.arrow_left {
+  width: 0;
+  height: 0;
+  border-top: 1vw solid transparent;
+  border-bottom: 1vw solid transparent;
+  border-right: 2vw solid;
+  left: -5vw;
+}
+
+.arrow_right {
+  width: 0;
+  height: 0;
+  border-top: 1vw solid transparent;
+  border-bottom: 1vw solid transparent;
+  border-left: 2vw solid;
+  right: -5vw;
+}
