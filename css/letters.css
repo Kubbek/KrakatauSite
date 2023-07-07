@@ -3,7 +3,6 @@
     font-weight: 300;
     color: rgb(177, 175, 175);
     text-decoration: none;
-    letter-spacing: 5vw;
     background: none;
 }
 
@@ -19,19 +18,20 @@
 
 .aboutUsLetters {
     position: absolute;
-    height: 9% ;
-    top: 57.5%;
-    left: 10%;
+    height: 12% ;
+    top: 56%;
+    left: 6.5%;
+    letter-spacing: 3.2vw;
 
  
 }
 
 .filmLetters {
     position: absolute;
-    top: 44%;
-    left: 10%;
-    height:8%;
-
+    top: 42.5%;
+    left: 6%;
+    height:10.5%;
+    letter-spacing: 3.5vw;
 
 } 
 
@@ -41,10 +41,10 @@
 
 .tvLetters {
     position: absolute;
-    top: 44%;
-    left: 10%;
-    height: 9%;
-    letter-spacing: 1.5vw;
+    top: 42.8%;
+    left: 6%;
+    height: 11.8%;
+    letter-spacing: 2.7vw;
 
 } 
 
@@ -55,10 +55,10 @@
 
 .theatreLetters {
     position: absolute;
-    top: 57%;
-    left: 10%;
-    height: 8%;
-    letter-spacing: 3vw;
+    top: 55.2%;
+    left: 8%;
+    height: 11.2%;
+    letter-spacing: 3.5vw;
 
 } 
 
@@ -68,10 +68,10 @@
 
 .grafikaLetters {
     position: absolute;
-    top: 57%;
-    left: 8%;
-    height: 8%;
-    letter-spacing: 2vw;
+    top: 55.2%;
+    left: 6%;
+    height: 11.2%;
+    letter-spacing: 1.8vw;
 
 } 
 
@@ -81,10 +81,10 @@
 
 .multimediaLetters {
     position: absolute;
-    top: 44%;
-    left: 10%;
-    height: 9%;
-    letter-spacing: 1.5vw;
+    top: 42.6%;
+    left: 6%;
+    height: 12.5%;
+    letter-spacing: 3.8vw;
 
 } 
 
