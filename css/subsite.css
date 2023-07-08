@@ -9,7 +9,9 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-
+.logo_about {
+  background-image: url(/html/About/img/LOGO\ ABOUT.jpg);
+}
 .logo_film {
   background-image: url(../html/Film/img/LOGO\ FILM.jpg);
 }
@@ -30,6 +32,46 @@
   background-image: url(../html/Multimedia/img/LOGO\ MULTIMEDIA.jpg);
 }
 
+.logo_contact {
+  background-image: url(../html/Contact/img/contact\ LOGO.jpg);
+  
+}
+
+/* AboutUs */
+
+.about_main {
+  padding: 4vh;
+  background-color: #646464;
+  color: rgb(207, 202, 202);
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 3vh;
+}
+
+.about_button {
+  width: 50%;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(207, 202, 202);
+}
+
+.about_realization {
+  background-color: #0b585e;
+
+}
+.about_prizes {
+  background-color: #043465;
+}
+
+.about_button_text {
+  height: 20%;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+/* Gallery */
 .gallery {
   background-color: black;
   margin: auto;

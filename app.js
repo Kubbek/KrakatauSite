@@ -9,7 +9,7 @@ const ARROW_LEFT = document.querySelector(".arrow_left");
 const ARROW_RIGHT = document.querySelector(".arrow_right");
 const GALLERY = document.querySelector(".gallery");
 
-var LETTERS = document.querySelectorAll('.main-link');
+var LETTERS = document.querySelectorAll('.scaling_text');
 
 function resizeText() {
   LETTERS.forEach(function (letter) {
