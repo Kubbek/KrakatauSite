@@ -40,7 +40,7 @@
 /* AboutUs */
 
 .about_main {
-  padding: 4vh;
+  padding: 10vh 6vw 10vh 6vw;
   background-color: #646464;
   color: rgb(207, 202, 202);
   font-family: 'Inter', sans-serif;
@@ -58,7 +58,7 @@
   color: rgb(207, 202, 202);
 }
 
-.about_realization {
+.about_realizations {
   background-color: #0b585e;
 
 }
@@ -67,10 +67,47 @@
 }
 
 .about_button_text {
-  height: 20%;
+  height: 30%;
   font-weight: 600;
-  letter-spacing: 5px;
+  letter-spacing: 1vw;
 }
+
+/* Popup AboutUS  */
+
+.awards_big {
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  color: rgb(207, 202, 202);
+}
+
+.realizations_big {
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  color: rgb(207, 202, 202);
+}
+
+
+.about_list {
+  color: rgb(207, 202, 202);
+  margin-bottom: 10vh;
+}
+
+.about_list>h1 {
+  font-size: 2vh;
+  font-style: italic;
+  margin-top: 3vh;
+}
+.about_list>p {
+  font-size: 1.2vh;
+  margin-top: 0.2vh;
+  margin-bottom: 0.2vh;
+}
+
+
+
+
 /* Gallery */
 .gallery {
   background-color: black;
@@ -111,8 +148,7 @@
 .popup {
   align-content: center;
   animation: fadeIn 0.3s;
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px);
+  background: #5a5a5a;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -131,14 +167,48 @@
   max-height: 80%;
   max-width: 80%;
 }
+.popup_name {
+  position: absolute;
+  top:5%;
+  left:5%;
+  height: 6vh;
+  width: 20vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.graphic_dark {
+  background-image: url(../html/Graphic/img/LOGO\ GRAPHIC\ DARK.jpg) ;
+}
+
+.tv_dark {
+  background-image:url(../html/TV/img/TV\ DARK.jpg) ;
+}
+
+.theatre_dark {
+  background-image: url(../html/Theatre/img/Theatre_Dark.jpg);
+}
+
+.multimedia_dark {
+  background-image: url(../html/Multimedia/img/mulimedia\ Dark.jpg);
+}
+
+.film_dark {
+  background-image: url(../html/Film/img/film\ Dark.jpg);
+}
 
 .popup_close {
   position: absolute;
-  top: -0.5vw;
-  right: -3vw;
+  top: 5%;
+  right:10%;
   background: none;
-  font-size: 4vw;
   color: rgb(207, 202, 202);
+  width: 0;
+  height: 0;
+  border-top: 2vw solid transparent;
+  border-bottom: 2vw solid transparent;
+  border-right: 4vw solid;
+  rotate: 90deg;
 }
 
 .popup_arrow {
@@ -151,17 +221,18 @@
 .arrow_left {
   width: 0;
   height: 0;
-  border-top: 1vw solid transparent;
-  border-bottom: 1vw solid transparent;
-  border-right: 2vw solid;
-  left: -5vw;
+  border-top: 2vw solid transparent;
+  border-bottom: 2vw solid transparent;
+  border-right: 4vw solid;
+  left: 3%;
 }
 
 .arrow_right {
   width: 0;
   height: 0;
-  border-top: 1vw solid transparent;
-  border-bottom: 1vw solid transparent;
-  border-left: 2vw solid;
-  right: -5vw;
+  border-top: 2vw solid transparent;
+  border-bottom: 2vw solid transparent;
+  border-left: 4vw solid;
+  right: 3%;
 }
+

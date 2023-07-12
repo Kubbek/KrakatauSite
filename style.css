@@ -72,7 +72,8 @@ body {
     
 }
 .contact_card {
-    background-image: url(html/Contact/img/Card.jpg);
+    position: relative;
+    background-image: url(html/Contact/img/CardEmail.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 1000px;
@@ -80,3 +81,13 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.contact_email {
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    height: 20%;
+    text-decoration: none;
+    color: red;
+    font-family: 'Inter', sans-serif;
+  }

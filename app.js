@@ -8,8 +8,15 @@ const POPUP_IMG = document.querySelector(".popup_img")
 const ARROW_LEFT = document.querySelector(".arrow_left");
 const ARROW_RIGHT = document.querySelector(".arrow_right");
 const GALLERY = document.querySelector(".gallery");
+const ABOUT_MAIN = document.querySelector(".about_page")
+const ABOUT_PRIZES = document.querySelector(".about_prizes")
+const ABOUT_REALIZATIONS = document.querySelector(".about_realizations")
+const ABOUT_POPUP_AWARDS = document.querySelector(".awards_popup")
+const ABOUT_POPUP_REALIZATIONS = document.querySelector(".realizations_popup")
 
 var LETTERS = document.querySelectorAll('.scaling_text');
+
+// Resize function
 
 function resizeText() {
   LETTERS.forEach(function (letter) {
@@ -22,6 +29,7 @@ function resizeText() {
 window.addEventListener('resize', resizeText);
 window.addEventListener('DOMContentLoaded', resizeText);
 
+// Popup Gallery
 
 let counter = 0
 
@@ -57,13 +65,24 @@ THUMBNAILS.forEach((thumbnail) => {
     });
 })
 
+const clickPrizes = () => {
+    ABOUT_MAIN.classList.add("hidden")
+    ABOUT_POPUP_AWARDS.classList.remove("hidden")
+    resizeText();
+}
 
 
-POPUP_CLOSE.addEventListener("click", closePopup)
+const clickRealizations = () => {
+    ABOUT_MAIN.classList.add("hidden")
+    ABOUT_POPUP_REALIZATIONS.classList.remove("hidden")
+    resizeText();
+}
 
-ARROW_RIGHT.addEventListener("click", nextImg )
+POPUP_CLOSE.addEventListener("click", closePopup);
 
-ARROW_LEFT.addEventListener("click", prevImg)
+ARROW_RIGHT.addEventListener("click", nextImg );
+
+ARROW_LEFT.addEventListener("click", prevImg);
 
 document.addEventListener('keydown', (e) => {
     if ( !POPUP.classList.contains("hidden"))
@@ -81,3 +100,11 @@ document.addEventListener('keydown', (e) => {
     }
 })
 
+
+if (ABOUT_REALIZATIONS) {
+    ABOUT_REALIZATIONS.addEventListener("click", clickRealizations)
+}
+    
+if (ABOUT_PRIZES) {
+    ABOUT_PRIZES.addEventListener("click", clickRealizations)
+}
