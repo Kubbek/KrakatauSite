@@ -106,5 +106,5 @@ if (ABOUT_REALIZATIONS) {
 }
     
 if (ABOUT_PRIZES) {
-    ABOUT_PRIZES.addEventListener("click", clickRealizations)
+    ABOUT_PRIZES.addEventListener("click", clickPrizes)
 }
