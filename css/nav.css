@@ -51,31 +51,37 @@ ul a:hover{
 }
 
 .mobile-nav-toggle {
+
     display: none;
+}
+
+.icon-hamburger {
+    height: 20px;
+    width: 20px;
 }
 
 
 @media (max-width: 800px){
 
     .logo {
-        margin-bottom: 5vh;
+
+        width: 50%;
+        height:15vh;
     }
     .nav-link {
-        font-size: 30px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .primary-navigation {
         z-index: +1;
         display: none;
-        background-color: rgb(134, 134, 134);
-        width: 100vw;
+        background-color: rgba(134, 134, 134, 0.8);
+        width: 50vw;
         height: 80vh;
-        left:0;
+        left:48%;
 
-    }
-
-    .primary-navigation li {
-        
     }
 
     .primary-navigation[data-visible] {
@@ -91,13 +97,16 @@ ul a:hover{
         padding: 0.5em;
         display: block;
         position: fixed;
-        top: 2%;
+        top: 12%;
         left:85%;
     }
     
     .mobile-nav-toggle .icon-close {
         display: none;
     }
+
+    
+
 }
 
 .opened {
