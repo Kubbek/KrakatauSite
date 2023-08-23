@@ -56,6 +56,10 @@ ul a:hover{
 
 
 @media (max-width: 800px){
+
+    .logo {
+        margin-bottom: 5vh;
+    }
     .nav-link {
         font-size: 30px;
     }
