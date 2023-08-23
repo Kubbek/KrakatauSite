@@ -13,8 +13,18 @@ const ABOUT_PRIZES = document.querySelector(".about_prizes")
 const ABOUT_REALIZATIONS = document.querySelector(".about_realizations")
 const ABOUT_POPUP_AWARDS = document.querySelector(".awards_popup")
 const ABOUT_POPUP_REALIZATIONS = document.querySelector(".realizations_popup")
+const navToggle = document.querySelector(".mobile-nav-toggle")
+const primaryNav = document.querySelector(".primary-navigation")
 
 var LETTERS = document.querySelectorAll('.scaling_text');
+
+
+
+//moblie nav
+
+navToggle.addEventListener('click', ()=> {
+    primaryNav.toggleAttribute('data-visible')
+} )
 
 // Resize function
 

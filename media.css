@@ -1,10 +1,8 @@
 
-@media (min-width:1200px){
-    .section {
-        width: 1200px;
-        height: 537px;
-    }
+@media (min-width:900px){
+body {
 
+}
 }
 
 
