@@ -91,3 +91,40 @@ body {
     color: red;
     font-family: 'Inter', sans-serif;
   }
+
+
+  @media (max-width:800px){
+
+    .section {
+        width: 100vw;
+        height: 60vh;
+        background-size: cover;
+    }
+
+
+    .aboutUs{
+        background-image: url(img/O\ NAS\ MOBILNA.jpg);
+        
+    }
+    
+    .film {
+        background-image: url(img/FILM\ MOBILNE.jpg);
+    }
+    
+    .tv {
+        background-image: url(img/TELEWIZJA\ MOBILNA..jpg);
+    }
+    
+    .theatre {
+        background-image: url(img/TEATR\ MOBILNE.jpg);
+    }
+    
+    .grafika {
+        background-image: url(img/GRAFIKA\ MOBILNE.jpg);
+    }
+    
+    .multimedia{
+        background-image: url(img/MULTIMEDIA\ MOBILNE.jpg);
+    }
+    
+  }

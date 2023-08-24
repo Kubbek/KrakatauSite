@@ -91,3 +91,76 @@
 .multimediaLetters:hover{
     color: rgb(242, 2, 177);
 }
+
+
+@media (max-width:800px) {
+
+
+    .filmLetters {
+        position: absolute;
+        top: 1382px;
+        left: 300px;
+    }
+    
+    .aboutUsLetters {
+        position: absolute;
+        height: 11%;
+        top: 42%;
+        left: 5.5%;
+        letter-spacing: 3.2vw;
+    
+     
+    }
+    
+    .filmLetters {
+        position: absolute;
+        top: 41%;
+        left: 6%;
+        height:10.5%;
+        letter-spacing: 8vw;
+    
+    } 
+    
+    
+    .tvLetters {
+        position: absolute;
+        top: 42.8%;
+        left: 3%;
+        height: 10.5%;
+        letter-spacing: 2vw;
+        color: rgb(230, 168, 2);
+    
+    } 
+     
+    
+    .theatreLetters {
+        position: absolute;
+        top: 42.2%;
+        left: 8%;
+        height: 10.2%;
+        letter-spacing: 2.5vw;
+        color: rgb(162, 0, 255);
+    
+    }    
+    
+    .grafikaLetters {
+        position: absolute;
+        top: 40.5%;
+        left: 6%;
+        height: 11.4%;
+        letter-spacing: 3.5vw;
+        color: rgb(2, 233, 197);
+    
+    } 
+    
+    .multimediaLetters {
+        position: absolute;
+        top: 45.3%;
+        left: 0%;
+        height: 10.2%;
+        letter-spacing: 1.2vw;
+        color: rgb(242, 2, 177);
+    } 
+    
+
+}

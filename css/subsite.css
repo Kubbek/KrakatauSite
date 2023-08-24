@@ -238,3 +238,33 @@
   right: 3.5%;
 }
 
+.popup-title {
+  position: absolute;
+  top:92%;
+  color: rgb(145, 144, 144);
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+@media (max-width: 800px){
+
+  .logo_subsite {
+    width: 58vw;
+    height: 8vh;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .toggle-subsite{
+    top: 3%
+  }
+
+  .thumbnail {
+    min-width: 50%;
+  }
+
+  ul a {
+    font-size: 20px;
+  }
+}
