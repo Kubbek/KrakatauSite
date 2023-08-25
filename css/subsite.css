@@ -171,8 +171,8 @@
 }
 .popup_name {
   position: absolute;
-  top:3%;
-  left:3%;
+  top:1%;
+  left:9%;
   height: 8vh;
   width: 24vw;
   background-size: contain;
@@ -241,7 +241,7 @@
 .popup-title {
   position: absolute;
   top:92%;
-  color: rgb(145, 144, 144);
+  color: rgb(207, 202, 202);
   margin-left: 10vw;
   margin-right: 10vw;
 }
@@ -256,6 +256,14 @@
     background-repeat: no-repeat;
   }
 
+  .popup-title{
+    top:85%
+  }
+
+  .popup_name {
+    width:50vw;
+    height:20vw
+  }
   .toggle-subsite{
     top: 3%
   }

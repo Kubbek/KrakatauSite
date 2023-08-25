@@ -65,8 +65,8 @@ ul a:hover{
 
     .logo {
 
-        width: 50%;
-        height:15vh;
+        width: 60%;
+        height:18vh;
     }
     .nav-link {
         font-size: 20px;
@@ -77,10 +77,12 @@ ul a:hover{
     .primary-navigation {
         z-index: +1;
         display: none;
-        background-color: rgba(134, 134, 134, 0.8);
+        background-color: rgba(93, 93, 93, 0.8);
         width: 50vw;
-        height: 80vh;
+        height: 45vh;
         left:48%;
+        text-align: right;
+        padding-right: 10px;
 
     }
 
@@ -97,7 +99,7 @@ ul a:hover{
         padding: 0.5em;
         display: block;
         position: fixed;
-        top: 10%;
+        top: 11.8%;
         left:85%;
     }
     
