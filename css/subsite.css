@@ -199,6 +199,9 @@
   background-image: url(../html/Film/img/film\ Dark.jpg);
 }
 
+.aboutUs_dark {
+  background-image: url(../html/About/img/TYTUŁ\ O\ NAS.jpg);
+}
 .popup_close {
   position: absolute;
   top: 5%;
@@ -266,7 +269,7 @@
   }
   .toggle-subsite{
     top: 3%
-  }
+  } 
 
   .thumbnail {
     min-width: 50%;
