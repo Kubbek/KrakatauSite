@@ -16,6 +16,7 @@ const ABOUT_POPUP_REALIZATIONS = document.querySelector(".realizations_popup")
 const navToggle = document.querySelector(".mobile-nav-toggle")
 const primaryNav = document.querySelector(".primary-navigation")
 const popupTitle = document.querySelector('.popup-title');
+const popupIframe = document.querySelector(".popup-iframe")
 
 var LETTERS = document.querySelectorAll('.scaling_text');
 
@@ -83,9 +84,11 @@ const nextImg = () => {
 THUMBNAILS.forEach((thumbnail) => {
     thumbnail.addEventListener("click", () => {
         if(thumbnail.getAttribute('data-type')=='gif'){
+            var dataSrc = thumbnail.getAttribute('data-src')
+
             POPUP.classList.remove("hidden");
             GALLERY.classList.add("hidden")
-            POPUP_IMG.setAttribute('src',thumbnail.src.slice(0,-4)+"A.gif")
+            popupIframe.setAttribute('src',thumbnail.src.slice(0,-4)+"A.gif")
             counter = thumbnail.getAttribute('data-counter');
             popupTitle.textContent=THUMBNAILS[counter-1].getAttribute('data-title')
         } else {
