@@ -291,4 +291,11 @@
   ul a {
     font-size: 20px;
   }
+
+  .arrow_play {
+    right: 45% ;
+    border-top: 6vw solid transparent;
+    border-bottom: 6.6vw solid transparent;
+    border-left: 12vw solid
+  }
 }
