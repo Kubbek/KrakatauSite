@@ -38,6 +38,7 @@
   
 }
 
+
 /* AboutUs */
 
 .about_main {
@@ -240,6 +241,17 @@
   border-left: 3.2vw solid;
   right: 3.5%;
 }
+
+.arrow_play {
+  color: red;
+  width: 0;
+  height: 0;
+  border-top: 1.6vw solid transparent;
+  border-bottom: 1.6vw solid transparent;
+  border-left: 3.2vw solid;
+  right: 50%;
+}
+
 
 .popup-title {
   position: absolute;

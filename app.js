@@ -16,7 +16,8 @@ const ABOUT_POPUP_REALIZATIONS = document.querySelector(".realizations_popup")
 const navToggle = document.querySelector(".mobile-nav-toggle")
 const primaryNav = document.querySelector(".primary-navigation")
 const popupTitle = document.querySelector('.popup-title');
-const popupIframe = document.querySelector(".popup-iframe")
+const popupPlay = document.querySelector('.arrow_play')
+const popupIframe = document.querySelector(".popup-iframe");
 
 var LETTERS = document.querySelectorAll('.scaling_text');
 
@@ -45,7 +46,6 @@ window.addEventListener('DOMContentLoaded', resizeText);
 
 let counter = 0
 
-const title = THUMBNAILS[counter].getAttribute('data-title')
 
 const closePopup = () =>{
     POPUP.classList.add("hidden")
@@ -56,12 +56,16 @@ const prevImg = () => {
     if (counter==1) {
         counter=56
     } if(THUMBNAILS[counter-2].getAttribute('data-type')=='gif'){
+        var currentLink = THUMBNAILS[counter-2].getAttribute('data-link')
         counter--
         POPUP_IMG.setAttribute('src', 'img/'+counter+'A.gif')
+        popupPlay.classList.remove('hidden')
+        popupPlay.setAttribute('href', currentLink)
         popupTitle.textContent=THUMBNAILS.getAttribute('data-counter'-1).getAttribute('data-title')   
     } else {
         counter--
         POPUP_IMG.setAttribute('src', 'img/'+counter+'A.jpg')
+        popupPlay.classList.add('hidden')
         popupTitle.textContent=THUMBNAILS[counter-1].getAttribute('data-title')
     }
 
@@ -70,12 +74,16 @@ const nextImg = () => {
     if (counter ==56){
         counter =1 
     } if(THUMBNAILS[counter].getAttribute('data-type')=="gif"){
+        var currentLink2 = THUMBNAILS[counter].getAttribute('data-link')
         counter++
         POPUP_IMG.setAttribute('src', 'img/'+counter+'A.gif')
+        popupPlay.classList.remove('hidden')
+        popupPlay.setAttribute('href', currentLink2)
         popupTitle.textContent=THUMBNAILS[counter-1].getAttribute('data-title')   
     }  else {
         counter++
         POPUP_IMG.setAttribute('src', 'img/'+counter+'A.jpg')
+        popupPlay.classList.add('hidden')
         popupTitle.textContent=THUMBNAILS[counter-1].getAttribute('data-title')      
     } 
 
@@ -83,23 +91,25 @@ const nextImg = () => {
 
 THUMBNAILS.forEach((thumbnail) => {
     thumbnail.addEventListener("click", () => {
-        if(thumbnail.getAttribute('data-type')=='gif'){
-            var dataSrc = thumbnail.getAttribute('data-src')
-
+        if (thumbnail.getAttribute('data-type') == 'gif') {
             POPUP.classList.remove("hidden");
-            GALLERY.classList.add("hidden")
-            popupIframe.setAttribute('src',thumbnail.src.slice(0,-4)+"A.gif")
+            GALLERY.classList.add("hidden");
+            POPUP_IMG.setAttribute('src', thumbnail.src.slice(0, -4) + "A.gif");
             counter = thumbnail.getAttribute('data-counter');
-            popupTitle.textContent=THUMBNAILS[counter-1].getAttribute('data-title')
+            popupPlay.classList.remove('hidden')
+            popupPlay.setAttribute('href', thumbnail.getAttribute('data-link')); 
+            popupTitle.textContent = THUMBNAILS[counter - 1].getAttribute('data-title');        
         } else {
             POPUP.classList.remove("hidden");
-            GALLERY.classList.add("hidden")
-            POPUP_IMG.setAttribute('src',thumbnail.src.slice(0,-4)+"A.jpg")
+            GALLERY.classList.add("hidden");
+            POPUP_IMG.setAttribute('src', thumbnail.src.slice(0, -4) + "A.jpg");
             counter = thumbnail.getAttribute('data-counter');
-            popupTitle.textContent=THUMBNAILS[counter-1].getAttribute('data-title')
+            popupPlay.setAttribute('href', ''); 
+            popupTitle.textContent = THUMBNAILS[counter - 1].getAttribute('data-title');
         }
     });
-})
+});
+
 
 const clickPrizes = () => {
     ABOUT_MAIN.classList.add("hidden")
