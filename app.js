@@ -61,7 +61,7 @@ const prevImg = () => {
         POPUP_IMG.setAttribute('src', 'img/'+counter+'A.gif')
         popupPlay.classList.remove('hidden')
         popupPlay.setAttribute('href', currentLink)
-        popupTitle.textContent=THUMBNAILS.getAttribute('data-counter'-1).getAttribute('data-title')   
+        popupTitle.textContent=THUMBNAILS[counter-1].getAttribute('data-title')   
     } else {
         counter--
         POPUP_IMG.setAttribute('src', 'img/'+counter+'A.jpg')
@@ -104,7 +104,6 @@ THUMBNAILS.forEach((thumbnail) => {
             GALLERY.classList.add("hidden");
             POPUP_IMG.setAttribute('src', thumbnail.src.slice(0, -4) + "A.jpg");
             counter = thumbnail.getAttribute('data-counter');
-            popupPlay.setAttribute('href', ''); 
             popupTitle.textContent = THUMBNAILS[counter - 1].getAttribute('data-title');
         }
     });
