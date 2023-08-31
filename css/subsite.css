@@ -63,10 +63,12 @@
 
 .about_realizations {
   background-color: #0b585e;
+  cursor: pointer;
 
 }
 .about_prizes {
   background-color: #043465;
+  cursor:pointer;
 }
 
 .about_button_text {
