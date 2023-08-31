@@ -301,5 +301,10 @@
     border-top: 6vw solid transparent;
     border-bottom: 6.6vw solid transparent;
     border-left: 12vw solid
+
+  }
+
+  .popup-title {
+    top: 77%;
   }
 }
