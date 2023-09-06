@@ -81,13 +81,13 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 }
-}
+
 
   @media (max-width:800px){
 
     .contact_card {
 
-        width: 200px;
+        width: 80vw;
         height: 200px;
         min-height: 200px;
     }
