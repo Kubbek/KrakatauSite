@@ -77,23 +77,21 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     width: 1000px;
-    min-height: 600px;
+    height: 600px;
     margin-left: 10%;
     margin-right: 10%;
 }
-
-.contact_email {
-    position: absolute;
-    left: 20%;
-    top: 70%;
-    height: 20%;
-    text-decoration: none;
-    color: red;
-    font-family: 'Inter', sans-serif;
-  }
-
+}
 
   @media (max-width:800px){
+
+    .contact_card {
+
+        width: 200px;
+        height: 200px;
+        min-height: 200px;
+    }
+    
 
     .section {
         width: 100vw;
