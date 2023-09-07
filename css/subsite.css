@@ -309,7 +309,7 @@
   }
   .popup-title {
     top: 65%;
-  }
+  } }
 
 @media (orientation : landscape) {
 
@@ -326,7 +326,5 @@
     max-height: 80%;
     height: 800px;
   }
-
-
 
   }
