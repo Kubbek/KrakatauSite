@@ -303,8 +303,9 @@
     border-left: 12vw solid
 
   }
-  .popup-img{
+  .popup img{
     max-height: 60%;
+    max-width: 60%;
   }
   .popup-title {
     top: 65%;

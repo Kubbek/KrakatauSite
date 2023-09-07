@@ -86,7 +86,7 @@ body {
   @media (max-width:800px){
 
     .contact_card {
-
+        margin: auto;
         width: 80vw;
         height: 200px;
         min-height: 200px;
