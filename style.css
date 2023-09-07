@@ -84,16 +84,6 @@ body {
 
 
   @media (max-width:800px){
-
-    #contact_card {
-        margin: auto;
-        max-width: 300px;
-        max-height: 200px;
-    }
-
-    .contact_section{
-        margin: auto;
-        max-width: 300px;   
         
     }
     .section {
