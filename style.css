@@ -84,6 +84,15 @@ body {
 
 
   @media (max-width:800px){
+
+    #contact_card {
+        margin: none;
+        position: absolute;
+        left: -10%;
+        top: 25%;
+        max-width: 80vw;
+    }
+
         
     }
     .section {
@@ -91,7 +100,7 @@ body {
         height: 60vh;
         background-size: cover;
     }
-
+}
 
     .aboutUs{
         background-image: url(img/O\ NAS\ MOBILNA.jpg);
@@ -118,4 +127,4 @@ body {
         background-image: url(img/MULTIMEDIA\ MOBILNE.jpg);
     }
     
-  }
+  

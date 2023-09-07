@@ -311,17 +311,6 @@
     top: 65%;
   }
 
-  #contact_card {
-    margin: auto;
-    max-width: 300px;
-    max-height: 200px;
-}
-
-.contact_section{
-    margin: auto;
-    max-width: 300px;   
-}
-
 @media (orientation : landscape) {
 
   .popup_name{
