@@ -35,9 +35,7 @@
 
 .logo_contact {
   background-image: url(../html/Contact/img/contact\ LOGO.jpg);
-  
 }
-
 
 /* AboutUs */
 
@@ -45,7 +43,7 @@
   padding: 9vh 6vw 9vh 6vw;
   background-color: #646464;
   color: rgb(207, 202, 202);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 22px;
   font-weight: 500;
   letter-spacing: 1.8px;
@@ -64,11 +62,10 @@
 .about_realizations {
   background-color: #0b585e;
   cursor: pointer;
-
 }
 .about_prizes {
   background-color: #043465;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .about_button_text {
@@ -76,7 +73,6 @@
   font-weight: 600;
   letter-spacing: 1vw;
 }
-
 
 /* Popup AboutUS  */
 
@@ -94,25 +90,21 @@
   color: rgb(207, 202, 202);
 }
 
-
 .about_list {
   color: rgb(207, 202, 202);
   margin-bottom: 10vh;
 }
 
-.about_list>h1 {
+.about_list > h1 {
   font-size: 3vh;
   font-style: italic;
   margin-top: 5vh;
 }
-.about_list>p {
+.about_list > p {
   font-size: 2vh;
   margin-top: 0.8vh;
   margin-bottom: 0.8vh;
 }
-
-
-
 
 /* Gallery */
 .gallery {
@@ -176,8 +168,8 @@
 }
 .popup_name {
   position: absolute;
-  top:1%;
-  left:9%;
+  top: 1%;
+  left: 9%;
   height: 8vh;
   width: 24vw;
   background-size: contain;
@@ -185,11 +177,11 @@
 }
 
 .graphic_dark {
-  background-image: url(../html/Graphic/img/LOGO\ GRAPHIC\ DARK.jpg) ;
+  background-image: url(../html/Graphic/img/LOGO\ GRAPHIC\ DARK.jpg);
 }
 
 .tv_dark {
-  background-image:url(../html/TV/img/TV\ DARK.jpg) ;
+  background-image: url(../html/TV/img/TV\ DARK.jpg);
 }
 
 .theatre_dark {
@@ -257,16 +249,21 @@
   top: 47.5%;
 }
 
-
 .popup-title {
   position: absolute;
-  top:92%;
+  top: 92%;
   color: rgb(207, 202, 202);
   margin-left: 10vw;
   margin-right: 10vw;
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
+
+  .about_button_text {
+    height: 25%;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+  }
 
   .logo_subsite {
     width: 58vw;
@@ -276,17 +273,17 @@
     background-repeat: no-repeat;
   }
 
-  .popup-title{
-    top:85%
+  .popup-title {
+    top: 85%;
   }
 
   .popup_name {
-    width:50vw;
-    height:20vw
+    width: 50vw;
+    height: 20vw;
   }
-  .toggle-subsite{
-    top: 3%
-  } 
+  .toggle-subsite {
+    top: 3%;
+  }
 
   .thumbnail {
     min-width: 50%;
@@ -297,25 +294,22 @@
   }
 
   .arrow_play {
-    right: 45% ;
+    right: 45%;
     border-top: 6vw solid transparent;
     border-bottom: 6.6vw solid transparent;
-    border-left: 12vw solid
-
+    border-left: 12vw solid;
   }
-  .popup img{
+  .popup img {
     max-height: 60%;
     max-width: 60%;
   }
   .popup-title {
     top: 65%;
-  } }
+  }
+}
 
-@media (orientation : landscape) {
-
-  .popup_name{
+@media (orientation: landscape) {
+  .popup_name {
     display: none;
   }
-
-
-  }
+}
